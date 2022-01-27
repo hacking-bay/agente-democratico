@@ -1,0 +1,12 @@
+footer div {
+  padding: 100px;
+  text-align: center;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+small {
+  color: #fff;
+  text-align: center;
+}
