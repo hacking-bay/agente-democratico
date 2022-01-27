@@ -1,0 +1,12 @@
+/**
+paleta de cores
+azul escuro: #1C3555 ou #113355
+branco: #fff
+cinza: #C4C4C4 ou #A6813C 
+azul claro: #CFE5FF
+
+
+**/
+@import "./global.css";
+@import "./header.css";
+@import "./main.css";
