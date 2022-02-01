@@ -93,24 +93,35 @@ article.escola_desc li {
   grid-template-columns: 1fr;
 }
 
-.inscricao div {
+.inscricao > div > div {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 600px;
   border: 1px #113355;
-  border-style: double none;
+  border-style: solid none;
   padding: 10px 0;
 }
 label {
+  text-align: left;
   font-size: 1.125rem;
   color: #113355;
 }
 form {
-  padding: 20px;
+  margin: 10px;
 }
 input[type="text"] {
-  margin: 5px 0;
-  padding: 5px 100px;
+  /* margin: 5px; */
+  /* padding: 0px 100px; */
+  padding: 10px;
+  width: 100%;
   border: solid 1px #113355;
   background-color: #cfe5ff;
   font-size: 1.125rem;
+  box-sizing: border-box;
+}
+label {
+  /* display: block; */
+  text-align: left;
 }
 
 input[type="submit"] {
@@ -123,15 +134,24 @@ input[type="submit"] {
   background-color: #cfe5ff;
 }
 
-/* @media (max-width: 1200px) {
-  article.agentes h1::after {
-    visibility: hidden;
+@media (max-width: 900px) {
+  article > div {
+    grid-template-columns: 1fr;
   }
-  article.agentes::after {
-    content: "";
-    display: block;
-    width: 100vw;
-    height: 4px;
-    background: #c4c4c4;
+
+  article.escola_desc > div {
+    grid-template-columns: 1fr;
   }
-} */
+}
+
+@media (max-width: 500px) {
+  div.banner h1 {
+    font-size: 3rem;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+}
