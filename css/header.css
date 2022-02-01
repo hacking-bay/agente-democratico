@@ -63,9 +63,9 @@ div.banner h1 {
   div.banner > div {
     grid-template-columns: 1fr;
   }
-  /* div.banner > div {
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: 1fr;
-  } */
+  nav a {
+    background-color: #0a233d;
+    font-size: 1.2rem;
+    margin: 5px;
+  }
 }
