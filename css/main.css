@@ -79,9 +79,9 @@ article.escola_desc > div {
 
 article.escola_desc li {
   /* font-family: "Barlow", sans-serif; */
-  list-style: inside;
-  font-weight: bold;
-  color: #fff;
+  list-style: none;
+  font-weight: normal;
+  color: #c4c4c4;
   font-size: 1.125rem;
   padding: 10px 0;
 }
